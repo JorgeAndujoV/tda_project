@@ -1,0 +1,12 @@
+﻿variable,tipo,n_nulos,pct_nulos,accion
+consumio_saf_binario,categorica,523,44.7,Se mantiene NaN (categoria codificada numerica)
+uf_af,numerica,523,44.7,Sin imputar (>20% faltante)
+edad_gestacion_ultimo_hijo,numerica,120,10.3,Imputacion mediana (39.00) + indicador
+categoria_pnacer,categorica,115,9.8,Relleno con 'No reportado'
+pnacer,numerica,115,9.8,Imputacion mediana (3390.00) + indicador
+edad,numerica,3,0.3,Imputacion mediana (29.00) + indicador
+otro,categorica,2,0.2,Se mantiene NaN (categoria codificada numerica)
+diabetes_gestacional,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
+embarazo_multiple,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
+probnac,categorica,1,0.1,Relleno con 'No reportado'
+restriccion_del_crecimiento_intrauterino_rciu,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
