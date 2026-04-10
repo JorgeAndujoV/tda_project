@@ -1,0 +1,7 @@
+﻿flag_control,variable,regla,n_no_aplica,n_afectados
+no_deje_de_comer_ninguno,carnes_rojas,no_aplica_si_no_restriccion,882,882
+no_deje_de_comer_ninguno,carnes_blancas,no_aplica_si_no_restriccion,882,882
+no_deje_de_comer_ninguno,lacteos,no_aplica_si_no_restriccion,882,882
+no_deje_de_comer_ninguno,huevos,no_aplica_si_no_restriccion,882,882
+no_deje_de_comer_ninguno,cualquier_producto_de_origen_animal,no_aplica_si_no_restriccion,882,882
+no_deje_de_comer_ninguno,otro,no_aplica_si_no_restriccion,882,881
