@@ -1,12 +1,17 @@
-﻿variable,tipo,n_nulos,pct_nulos,accion
-consumio_saf_binario,categorica,523,44.7,Se mantiene NaN (categoria codificada numerica)
-uf_af,numerica,523,44.7,Sin imputar (>20% faltante)
-edad_gestacion_ultimo_hijo,numerica,120,10.3,Imputacion mediana (39.00) + indicador
-categoria_pnacer,categorica,115,9.8,Relleno con 'No reportado'
-pnacer,numerica,115,9.8,Imputacion mediana (3390.00) + indicador
-edad,numerica,3,0.3,Imputacion mediana (29.00) + indicador
-otro,categorica,2,0.2,Se mantiene NaN (categoria codificada numerica)
-diabetes_gestacional,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
-embarazo_multiple,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
-probnac,categorica,1,0.1,Relleno con 'No reportado'
-restriccion_del_crecimiento_intrauterino_rciu,categorica,1,0.1,Se mantiene NaN (categoria codificada numerica)
+﻿variable,tipo,n_nulos,pct_nulos,significado_nulos,accion
+otro,categorica,883,75.5,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+carnes_blancas,categorica,882,75.4,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+carnes_rojas,categorica,882,75.4,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+cualquier_producto_de_origen_animal,categorica,882,75.4,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+huevos,categorica,882,75.4,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+lacteos,categorica,882,75.4,no_aplica_si_no_restriccion,Se mantiene NaN (faltante semántico: no aplica)
+uf_af,numerica,523,44.7,faltante_real_o_por_confirmar,Sin imputar (>20% faltante)
+edad_gestacion_ultimo_hijo,numerica,120,10.3,faltante_real_o_por_confirmar,Imputación mediana (39.00) + indicador
+categoria_pnacer,categorica,115,9.8,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+pnacer,numerica,115,9.8,faltante_real_o_por_confirmar,Imputación mediana (3390.00) + indicador
+sexo,categorica,53,4.5,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+edad,numerica,3,0.3,faltante_real_o_por_confirmar,Imputación mediana (29.00) + indicador
+diabetes_gestacional,categorica,1,0.1,no_aplica_si_ninguna_condicion,Se mantiene NaN (faltante semántico: no aplica)
+embarazo_multiple,categorica,1,0.1,no_aplica_si_ninguna_condicion,Se mantiene NaN (faltante semántico: no aplica)
+probnac,categorica,1,0.1,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+restriccion_del_crecimiento_intrauterino_rciu,categorica,1,0.1,no_aplica_si_ninguna_condicion,Se mantiene NaN (faltante semántico: no aplica)
