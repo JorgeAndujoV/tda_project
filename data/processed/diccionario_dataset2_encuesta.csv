@@ -1,79 +1,86 @@
-﻿nombre_variable,tipo_python,tipo_analitico,n_validos,n_nulos,pct_nulos,valores_unicos,ejemplo_valores,descripcion
-marca_temporal,datetime64[us],fecha,847,6,0.7,847,"2023-08-08 20:34:15.784000, 2023-08-09 08:22:07.087000, 2023-08-09 09:59:02.6700",Fecha y hora de llenado de la encuesta
-motivo_eliminacion,str,categórica / texto,110,743,87.1,17,"FN RN, SV, SAF",Razón por la que el registro fue marcado para exclusión
-identificador_c,float64,numérica,853,0,0.0,848,"1.0, 2.0, 3.0",Identificador único del registro
-nacimiento_madre,datetime64[us],fecha,850,3,0.4,789,"1986-12-21 00:00:00, 1984-09-15 00:00:00, 1982-09-12 00:00:00",Fecha de nacimiento de la madre
-edad_madre,float64,numérica,853,0,0.0,32,"36.0, 38.0, 40.0",Edad de la madre (años)
-nacionalidad_c,float64,numérica,853,0,0.0,5,"1.0, 2.0, 847.0",Nacionalidad de la madre (código)
-region_c,float64,numérica,853,0,0.0,19,"2.0, 1.0, 4.0",Región de Chile (código)
-nivel_educacional_c,float64,numérica,853,0,0.0,8,"5.0, 3.0, 4.0",Nivel educacional de la madre (código)
-nacimiento_rn,datetime64[us],fecha,850,3,0.4,696,"2022-02-14 00:00:00, 2023-05-05 00:00:00, 1982-09-07 00:00:00",Fecha de nacimiento del recién nacido
-numero_embarazo,float64,numérica,853,0,0.0,8,"1.0, 3.0, 2.0",Número de embarazo de la madre
-primipara_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Indicador de primiparidad (1=primípara)
-sexo_rn_c,float64,numérica,853,0,0.0,5,"2.0, 1.0, 847.0",Sexo del recién nacido (código)
-peso_rn,str,categórica / texto,853,0,0.0,330,"1880, 3480, 2560",Peso del recién nacido (g)
-peso_rn_c,float64,numérica,853,0,0.0,6,"1.0, 2.0, 3.0",Por confirmar
-fecha_inicio_gestacion,datetime64[us],fecha,853,0,0.0,699,"2021-06-21 00:00:00, 2022-08-08 00:00:00, 1981-12-08 00:00:00",Por confirmar
-pandemia_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Indicador de período pandemia COVID-19 (1=pandemia)
-eg_rn,float64,numérica,851,2,0.2,50,"34.0, 38.57142857142857, 39.0",Edad gestacional al nacimiento (semanas)
-eg_rn_c,float64,ordinal / categórica,846,7,0.8,5,"3.0, 2.0, 4.0",Por confirmar
-peso_pregestacional,str,categórica / texto,853,0,0.0,114,"52, 68, 62",Peso pregestacional de la madre (kg)
-talla_materna,float64,numérica,853,0,0.0,43,"155.0, 162.0, 168.0",Talla de la madre (cm)
-peso_postparto,str,categórica / texto,853,0,0.0,127,"65, 79, 67",Por confirmar
-delta_peso_gestacional,float64,numérica,844,9,1.1,93,"13.0, 11.0, 5.0",Por confirmar
-delta_peso_gestacional_c,float64,ordinal / categórica,843,10,1.2,3,"2.0, 1.0, 3.0",Por confirmar
-imc_pregestacional,str,categórica / texto,853,0,0.0,567,"21.64412070759625, 25.910684346898332, 21.9671201814059",IMC pregestacional de la madre
-imc_postparto,str,categórica / texto,853,0,0.0,596,"27.055150884495315, 30.102118579484827, 23.738662131519277",Por confirmar
-delta_imc,float64,numérica,844,9,1.1,563,"5.4110301768990645, 4.191434232586495, 1.7715419501133773",Por confirmar
-imc_pregestacional_c,float64,numérica,846,7,0.8,5,"2.0, 3.0, 4.0",Por confirmar
-imc_termino_c,float64,numérica,844,9,1.1,5,"3.0, 4.0, 2.0",Por confirmar
-condicion_o_exposiscion_materna,str,categórica / texto,850,3,0.4,21,"Preeclampsia, No estuve expuesta a ninguna de las situaciones o condiciones menc",Por confirmar
-condicion_materna_c,float64,numérica,853,0,0.0,7,"1.0, 3.0, 2.0",Por confirmar
-problema_salud_rn_c,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar
-problema_salud,str,categórica / texto,86,767,89.9,70,"Frenillo lingual corto, Alergia alimentaria multiple, Tis Tea",Por confirmar
-problema_salud_c,float64,numérica,801,52,6.1,6,"5.0, 1.0, 3.0",Por confirmar
-consumo_saf,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar
-codigo_saf,str,categórica / texto,853,0,0.0,29,"5, 4, 0",Por confirmar
-aporte_saf_mg_af_capsula,str,categórica / texto,728,125,14.7,14,"5, 1, x",Por confirmar
-dias_a_la_semana_saf,str,categórica / texto,728,125,14.7,12,"7, 6, 1",Por confirmar
-capsulas_saf,str,categórica / texto,728,125,14.7,8,"1, 2, 0.5",Por confirmar
-saf_mg_af_dia,str,categórica / texto,728,125,14.7,30,"5, 1, 0.8571428571428571",Por confirmar
-nombre_saf,str,categórica / texto,826,27,3.2,68,"Folisanin 5 miligramos, Folisanin 1 miligramo (mg), Supradyn prenatal",Por confirmar
-consumo_osaf,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar
-codigo_osaf,float64,numérica,30,823,96.5,8,"18.0, 17.0, 24.0",Por confirmar
-nombre_osaf,str,categórica / texto,27,826,96.8,8,"Folifer, Cheltin, Maam vit",Por confirmar
-mg_af_capsula_osaf,float64,numérica,30,823,96.5,7,"2.0, 0.6, 0.5",Por confirmar
-dias_a_la_semana_osaf,float64,numérica,30,823,96.5,7,"7.0, 1.0, 6.0",Por confirmar
-capsulas_osaf,float64,numérica,30,823,96.5,5,"1.0, 2.0, 24.0",Por confirmar
-osaf_mg_af_dia,float64,numérica,30,823,96.5,13,"2.0, 0.6, 0.5",Por confirmar
-saf_osaf_mg_af_dia,float64,numérica,697,156,18.3,38,"5.0, 1.0, 0.8571428571428571",Por confirmar
-nombre_maf,str,categórica / texto,473,380,44.5,170,"Naticare supra, Omega 3, Elcal-D, Elcal D y Omega 3",Por confirmar
-consumo_maf,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar
-cual_maf,str,categórica / texto,379,474,55.6,79,"Naticare supra, Supradin prenatal, Naticare supra, regénesis ultra",Por confirmar
-codigo_maf,float64,numérica,370,483,56.6,19,"12.0, 1.0, 16.0",Por confirmar
-mg_af_capsula_maf,str,categórica / texto,369,484,56.7,15,"0.4, 0.8, 0.35",Por confirmar
-dias_a_la_semana_maf,float64,numérica,370,483,56.6,9,"7.0, 5.0, 1.0",Por confirmar
-capsulas_maf,float64,numérica,370,483,56.6,5,"1.0, 2.0, 364.0",Por confirmar
-maf_mg_af_dia,float64,numérica,329,524,61.4,24,"0.4, 0.8, 0.35",Por confirmar
-saf_osaf_maf_mg_af_dia,str,categórica / texto,825,28,3.3,83,"5, 5.4, 1",Por confirmar
-nombre_sin,str,categórica / texto,475,378,44.3,164,"Naticare supra, Omega 3, Elcal-D, Supradin prenatal",Por confirmar
-consumo_sin,str,categórica / texto,853,0,0.0,6,"0, 1, x",Por confirmar
-dias_a_la_semana_sin,float64,numérica,480,373,43.7,10,"7.0, 5.0, 1.0",Por confirmar
-capsulas_sin,float64,numérica,481,372,43.6,8,"1.0, 2.0, 3.0",Por confirmar
-periodo_consumo_saf,str,categórica / texto,850,3,0.4,9,"Antes del embarazo, 1-3 meses de embarazo (los 3 primeros meses de embarazo), An",Por confirmar
-periodo_consumo_saf_c,float64,numérica,853,0,0.0,9,"3.0, 4.0, 6.0",Por confirmar
-evito_consumo_alimentos_c,float64,numérica,844,9,1.1,5,"1.0, 3.0, 4.0",Por confirmar
-consumo_pan_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar
-nombre_pan,str,categórica / texto,840,13,1.5,49,"Marraqueta - Pan Batido - Pan Francés, Pan de molde integral, Todas las anterior",Por confirmar
-codigo_pan,float64,numérica,853,0,0.0,18,"1.0, 4.0, 0.0",Por confirmar
-gr_pan_dia,float64,numérica,853,0,0.0,44,"168.0, 55.0, 0.0",Por confirmar
-aporte_mg_af_unidad_pan,float64,numérica,853,0,0.0,13,"0.13, 0.05, 0.0",Por confirmar
-unidad_pan_dia,float64,numérica,853,0,0.0,10,"2.0, 1.0, 0.0",Por confirmar
-pan_mg_af_dia,float64,numérica,853,0,0.0,34,"0.26, 0.05, 0.0",Por confirmar
-total_af_aporte_saf_osaf_maf_pan,float64,numérica,818,35,4.1,246,"5.26, 1.0, 0.8500000000000001",Por confirmar
-consumo_pastas_con_af,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar
-taza_pasta_con_af,str,categórica / texto,838,15,1.8,11,"2, 146.5, 1",Por confirmar
-gramos_pasta_semanal,float64,numérica,845,8,0.9,9,"293.0, 20.928571428571427, 0.0",Por confirmar
-gramos_pasta_dia,float64,numérica,845,8,0.9,9,"41.857142857142854, 0.016114999999999997, 0.0",Por confirmar
-pasta_ug_af_dia,float64,numérica,845,8,0.9,15,"0.032229999999999995, 5.466115, 0.0",Por confirmar
-total_af_aporte_pasta_pan_saf_osaf_maf,float64,numérica,815,38,4.5,494,"5.29223, 1.0, 0.8822300000000001",Por confirmar
+﻿nombre_variable,tipo_python,tipo_analitico,n_validos,n_nulos,pct_nulos,valores_unicos,ejemplo_valores,descripcion,significado_nulos,tipo_nulo
+marca_temporal,datetime64[us],fecha,847,6,0.7,847,"2023-08-08 20:34:15.784000, 2023-08-09 08:22:07.087000, 2023-08-09 09:59:02.6700",Fecha y hora de llenado de la encuesta,faltante_real_o_por_confirmar,faltante
+motivo_eliminacion,str,categórica / texto,110,743,87.1,17,"FN RN, SV, SAF",Razón por la que el registro fue marcado para exclusión,faltante_real_o_por_confirmar,faltante
+identificador_c,float64,numérica,853,0,0.0,848,"1.0, 2.0, 3.0",Identificador único del registro,faltante_real_o_por_confirmar,faltante
+nacimiento_madre,datetime64[us],fecha,850,3,0.4,789,"1986-12-21 00:00:00, 1984-09-15 00:00:00, 1982-09-12 00:00:00",Fecha de nacimiento de la madre,faltante_real_o_por_confirmar,faltante
+edad_madre,float64,numérica,853,0,0.0,32,"36.0, 38.0, 40.0",Edad de la madre (años),faltante_real_o_por_confirmar,faltante
+nacionalidad_c,float64,numérica,853,0,0.0,5,"1.0, 2.0, 847.0",Nacionalidad de la madre (código),faltante_real_o_por_confirmar,faltante
+region_c,float64,numérica,853,0,0.0,19,"2.0, 1.0, 4.0",Región de Chile (código),faltante_real_o_por_confirmar,faltante
+nivel_educacional_c,float64,numérica,853,0,0.0,8,"5.0, 3.0, 4.0",Nivel educacional de la madre (código),faltante_real_o_por_confirmar,faltante
+nacimiento_rn,datetime64[us],fecha,850,3,0.4,696,"2022-02-14 00:00:00, 2023-05-05 00:00:00, 1982-09-07 00:00:00",Fecha de nacimiento del recién nacido,faltante_real_o_por_confirmar,faltante
+numero_embarazo,float64,numérica,853,0,0.0,8,"1.0, 3.0, 2.0",Número de embarazo de la madre,faltante_real_o_por_confirmar,faltante
+primipara_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Indicador de primiparidad (1=primípara),faltante_real_o_por_confirmar,faltante
+sexo_rn_c,float64,numérica,853,0,0.0,5,"2.0, 1.0, 847.0",Sexo del recién nacido (código),faltante_real_o_por_confirmar,faltante
+peso_rn,str,categórica / texto,853,0,0.0,330,"1880, 3480, 2560",Peso del recién nacido (g),faltante_real_o_por_confirmar,faltante
+peso_rn_c,float64,numérica,853,0,0.0,6,"1.0, 2.0, 3.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+fecha_inicio_gestacion,datetime64[us],fecha,853,0,0.0,699,"2021-06-21 00:00:00, 2022-08-08 00:00:00, 1981-12-08 00:00:00",Por confirmar,faltante_real_o_por_confirmar,faltante
+pandemia_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Indicador de período pandemia COVID-19 (1=pandemia),faltante_real_o_por_confirmar,faltante
+eg_rn,float64,numérica,851,2,0.2,50,"34.0, 38.57142857142857, 39.0",Edad gestacional al nacimiento (semanas),faltante_real_o_por_confirmar,faltante
+eg_rn_c,float64,ordinal / categórica,846,7,0.8,5,"3.0, 2.0, 4.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+peso_pregestacional,str,categórica / texto,853,0,0.0,114,"52, 68, 62",Peso pregestacional de la madre (kg),faltante_real_o_por_confirmar,faltante
+talla_materna,float64,numérica,853,0,0.0,43,"155.0, 162.0, 168.0",Talla de la madre (cm),faltante_real_o_por_confirmar,faltante
+peso_postparto,str,categórica / texto,853,0,0.0,127,"65, 79, 67",Por confirmar,faltante_real_o_por_confirmar,faltante
+delta_peso_gestacional,float64,numérica,844,9,1.1,93,"13.0, 11.0, 5.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+delta_peso_gestacional_c,float64,ordinal / categórica,843,10,1.2,3,"2.0, 1.0, 3.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+imc_pregestacional,str,categórica / texto,853,0,0.0,567,"21.64412070759625, 25.910684346898332, 21.9671201814059",IMC pregestacional de la madre,faltante_real_o_por_confirmar,faltante
+imc_postparto,str,categórica / texto,853,0,0.0,596,"27.055150884495315, 30.102118579484827, 23.738662131519277",Por confirmar,faltante_real_o_por_confirmar,faltante
+delta_imc,float64,numérica,844,9,1.1,563,"5.4110301768990645, 4.191434232586495, 1.7715419501133773",Por confirmar,faltante_real_o_por_confirmar,faltante
+imc_pregestacional_c,float64,numérica,846,7,0.8,5,"2.0, 3.0, 4.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+imc_termino_c,float64,numérica,844,9,1.1,5,"3.0, 4.0, 2.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+condicion_o_exposiscion_materna,str,categórica / texto,850,3,0.4,21,"Preeclampsia, No estuve expuesta a ninguna de las situaciones o condiciones menc",Por confirmar,faltante_real_o_por_confirmar,faltante
+condicion_materna_c,float64,numérica,853,0,0.0,7,"1.0, 3.0, 2.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+problema_salud_rn_c,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+problema_salud,str,categórica / texto,85,768,90.0,70,"Frenillo lingual corto, Alergia alimentaria multiple, Tis Tea",Por confirmar,no_aplica_si_no_problema_salud_rn,no_aplica
+problema_salud_c,float64,numérica,801,52,6.1,6,"5.0, 1.0, 3.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_saf,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+codigo_saf,str,categórica / texto,727,126,14.8,28,"5, 4, 13",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+aporte_saf_mg_af_capsula,str,categórica / texto,727,126,14.8,14,"5, 1, x",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+dias_a_la_semana_saf,str,categórica / texto,727,126,14.8,12,"7, 6, 1",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+capsulas_saf,str,categórica / texto,727,126,14.8,8,"1, 2, 0.5",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+saf_mg_af_dia,str,categórica / texto,727,126,14.8,30,"5, 1, 0.8571428571428571",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+nombre_saf,str,categórica / texto,721,132,15.5,51,"Folisanin 5 miligramos, Folisanin 1 miligramo (mg), Consumí el del consultorio u",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+consumo_osaf,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+codigo_osaf,float64,numérica,28,825,96.7,8,"18.0, 17.0, 24.0",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+nombre_osaf,str,categórica / texto,26,827,97.0,8,"Folifer, Cheltin, Maam vit",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+mg_af_capsula_osaf,float64,numérica,28,825,96.7,7,"2.0, 0.6, 0.5",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+dias_a_la_semana_osaf,float64,numérica,28,825,96.7,7,"7.0, 1.0, 6.0",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+capsulas_osaf,float64,numérica,28,825,96.7,5,"1.0, 2.0, 24.0",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+osaf_mg_af_dia,float64,numérica,28,825,96.7,12,"2.0, 0.6, 0.5",Por confirmar,no_aplica_si_no_consumo_osaf,no_aplica
+saf_osaf_mg_af_dia,float64,numérica,697,156,18.3,38,"5.0, 1.0, 0.8571428571428571",Por confirmar,faltante_real_o_por_confirmar,faltante
+nombre_maf,str,categórica / texto,349,504,59.1,84,"Naticare supra, Participante no especifica, Regenesis max",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+consumo_maf,float64,numérica,853,0,0.0,5,"0.0, 1.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+cual_maf,str,categórica / texto,367,486,57.0,76,"Naticare supra, Supradin prenatal, Naticare supra, regénesis ultra",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+codigo_maf,float64,numérica,368,485,56.9,19,"12.0, 1.0, 16.0",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+mg_af_capsula_maf,str,categórica / texto,367,486,57.0,15,"0.4, 0.8, 0.35",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+dias_a_la_semana_maf,float64,numérica,368,485,56.9,9,"7.0, 5.0, 1.0",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+capsulas_maf,float64,numérica,368,485,56.9,5,"1.0, 2.0, 364.0",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+maf_mg_af_dia,float64,numérica,327,526,61.7,24,"0.4, 0.8, 0.35",Por confirmar,no_aplica_si_no_consumo_maf,no_aplica
+saf_osaf_maf_mg_af_dia,str,categórica / texto,825,28,3.3,83,"5, 5.4, 1",Por confirmar,faltante_real_o_por_confirmar,faltante
+nombre_sin,str,categórica / texto,475,378,44.3,164,"Naticare supra, Omega 3, Elcal-D, Supradin prenatal",Por confirmar,no_aplica_si_no_consumo_sin,no_aplica
+consumo_sin,str,categórica / texto,853,0,0.0,6,"0, 1, x",Por confirmar,faltante_real_o_por_confirmar,faltante
+dias_a_la_semana_sin,float64,numérica,480,373,43.7,10,"7.0, 5.0, 1.0",Por confirmar,no_aplica_si_no_consumo_sin,no_aplica
+capsulas_sin,float64,numérica,481,372,43.6,8,"1.0, 2.0, 3.0",Por confirmar,no_aplica_si_no_consumo_sin,no_aplica
+periodo_consumo_saf,str,categórica / texto,724,129,15.1,9,"Antes del embarazo, 1-3 meses de embarazo (los 3 primeros meses de embarazo), An",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+periodo_consumo_saf_c,float64,numérica,727,126,14.8,9,"3.0, 4.0, 5.0",Por confirmar,no_aplica_si_no_consumo_saf,no_aplica
+evito_consumo_alimentos_c,float64,numérica,844,9,1.1,5,"1.0, 3.0, 4.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_pan_c,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+nombre_pan,str,categórica / texto,835,18,2.1,45,"Marraqueta - Pan Batido - Pan Francés, Pan de molde integral, Todas las anterior",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+codigo_pan,float64,numérica,838,15,1.8,17,"1.0, 4.0, 14.0",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+gr_pan_dia,float64,numérica,838,15,1.8,43,"168.0, 55.0, 84.0",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+aporte_mg_af_unidad_pan,float64,numérica,838,15,1.8,12,"0.13, 0.05, 0.1",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+unidad_pan_dia,float64,numérica,838,15,1.8,9,"2.0, 1.0, 0.5",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+pan_mg_af_dia,float64,numérica,838,15,1.8,33,"0.26, 0.05, 0.13",Por confirmar,no_aplica_si_no_consumo_pan,no_aplica
+total_af_aporte_saf_osaf_maf_pan,float64,numérica,818,35,4.1,246,"5.26, 1.0, 0.8500000000000001",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_pastas_con_af,float64,numérica,853,0,0.0,5,"1.0, 0.0, 847.0",Por confirmar,faltante_real_o_por_confirmar,faltante
+taza_pasta_con_af,str,categórica / texto,837,16,1.9,11,"2, 146.5, 1",Por confirmar,no_aplica_si_no_consumo_pastas,no_aplica
+gramos_pasta_semanal,float64,numérica,831,22,2.6,9,"293.0, 20.928571428571427, 146.5",Por confirmar,no_aplica_si_no_consumo_pastas,no_aplica
+gramos_pasta_dia,float64,numérica,831,22,2.6,9,"41.857142857142854, 0.016114999999999997, 20.928571428571427",Por confirmar,no_aplica_si_no_consumo_pastas,no_aplica
+pasta_ug_af_dia,float64,numérica,831,22,2.6,15,"0.032229999999999995, 5.466115, 0.016114999999999997",Por confirmar,no_aplica_si_no_consumo_pastas,no_aplica
+total_af_aporte_pasta_pan_saf_osaf_maf,float64,numérica,815,38,4.5,494,"5.29223, 1.0, 0.8822300000000001",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_saf_no_aplica,int64,categórica (binaria),853,0,0.0,2,"0, 1",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_osaf_no_aplica,int64,categórica (binaria),853,0,0.0,2,"1, 0",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_maf_no_aplica,int64,categórica (binaria),853,0,0.0,2,"1, 0",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_sin_no_aplica,int64,categórica (binaria),853,0,0.0,1,0,Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_pan_c_no_aplica,int64,categórica (binaria),853,0,0.0,2,"0, 1",Por confirmar,faltante_real_o_por_confirmar,faltante
+consumo_pastas_con_af_no_aplica,int64,categórica (binaria),853,0,0.0,2,"0, 1",Por confirmar,faltante_real_o_por_confirmar,faltante
+problema_salud_rn_c_no_aplica,int64,categórica (binaria),853,0,0.0,2,"1, 0",Por confirmar,faltante_real_o_por_confirmar,faltante

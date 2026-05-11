@@ -1,47 +1,74 @@
-﻿variable,tipo,n_nulos,pct_nulos,accion
-nombre_osaf,categorica,824,96.9,Relleno con 'No reportado'
-capsulas_osaf,categorica,823,96.8,Se mantiene NaN (categoria codificada numerica)
-codigo_osaf,numerica,823,96.8,Sin imputar (>20% faltante)
-dias_a_la_semana_osaf,categorica,823,96.8,Se mantiene NaN (categoria codificada numerica)
-mg_af_capsula_osaf,categorica,823,96.8,Se mantiene NaN (categoria codificada numerica)
-osaf_mg_af_dia,numerica,823,96.8,Sin imputar (>20% faltante)
-problema_salud,categorica,765,90.0,Relleno con 'No reportado'
-motivo_eliminacion,categorica,743,87.4,Relleno con 'No reportado'
-maf_mg_af_dia,numerica,524,61.6,Sin imputar (>20% faltante)
-mg_af_capsula_maf,categorica,484,56.9,Relleno con 'No reportado'
-capsulas_maf,categorica,483,56.8,Se mantiene NaN (categoria codificada numerica)
-codigo_maf,numerica,483,56.8,Sin imputar (>20% faltante)
-dias_a_la_semana_maf,categorica,483,56.8,Se mantiene NaN (categoria codificada numerica)
-cual_maf,categorica,472,55.5,Relleno con 'No reportado'
-nombre_maf,categorica,378,44.5,Relleno con 'No reportado'
-nombre_sin,categorica,376,44.2,Relleno con 'No reportado'
-dias_a_la_semana_sin,categorica,373,43.9,Se mantiene NaN (categoria codificada numerica)
-capsulas_sin,categorica,372,43.8,Se mantiene NaN (categoria codificada numerica)
-saf_osaf_mg_af_dia,numerica,156,18.4,Imputacion mediana (1.00) + indicador
-aporte_saf_mg_af_capsula,categorica,125,14.7,Relleno con 'No reportado'
-capsulas_saf,categorica,125,14.7,Relleno con 'No reportado'
-dias_a_la_semana_saf,categorica,125,14.7,Relleno con 'No reportado'
-saf_mg_af_dia,categorica,125,14.7,Relleno con 'No reportado'
-problema_salud_c,categorica,50,5.9,Se mantiene NaN (categoria codificada numerica)
-total_af_aporte_pasta_pan_saf_osaf_maf,numerica,36,4.2,Imputacion mediana (17.38) + indicador
-total_af_aporte_saf_osaf_maf_pan,numerica,33,3.9,Imputacion mediana (1.30) + indicador
-saf_osaf_maf_mg_af_dia,categorica,28,3.3,Relleno con 'No reportado'
-nombre_saf,categorica,24,2.8,Relleno con 'No reportado'
-taza_pasta_con_af,categorica,15,1.8,Relleno con 'No reportado'
-nombre_pan,categorica,11,1.3,Relleno con 'No reportado'
-delta_imc,numerica,7,0.8,Imputacion mediana (3.86) + indicador
-delta_peso_gestacional,numerica,7,0.8,Imputacion mediana (10.00) + indicador
-delta_peso_gestacional_c,categorica,7,0.8,Se mantiene NaN (categoria codificada numerica)
-evito_consumo_alimentos_c,categorica,7,0.8,Se mantiene NaN (categoria codificada numerica)
-imc_termino_c,categorica,7,0.8,Se mantiene NaN (categoria codificada numerica)
-gramos_pasta_dia,numerica,6,0.7,Imputacion mediana (41.86) + indicador
-gramos_pasta_semanal,numerica,6,0.7,Imputacion mediana (293.00) + indicador
-pasta_ug_af_dia,numerica,6,0.7,Imputacion mediana (16.11) + indicador
-categoria_imc,categorica,5,0.6,Relleno con 'No reportado'
-imc_pregestacional,numerica,5,0.6,Imputacion mediana (25.53) + indicador
-imc_pregestacional_c,categorica,5,0.6,Se mantiene NaN (categoria codificada numerica)
-eg_rn_c,categorica,4,0.5,Se mantiene NaN (categoria codificada numerica)
-eg_rn,numerica,2,0.2,Imputacion mediana (38.57) + indicador
-peso_rn,numerica,2,0.2,Imputacion mediana (3323.00) + indicador
-condicion_o_exposiscion_materna,categorica,1,0.1,Relleno con 'No reportado'
-periodo_consumo_saf,categorica,1,0.1,Relleno con 'No reportado'
+﻿variable,tipo,n_nulos,pct_nulos,significado_nulos,accion
+nombre_osaf,categorica,827,97.0,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+capsulas_osaf,categorica,825,96.7,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+codigo_osaf,categorica,825,96.7,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+dias_a_la_semana_osaf,categorica,825,96.7,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+mg_af_capsula_osaf,categorica,825,96.7,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+osaf_mg_af_dia,numerica,825,96.7,no_aplica_si_no_consumo_osaf,Se mantiene NaN (faltante semántico: no aplica)
+problema_salud,categorica,768,90.0,no_aplica_si_no_problema_salud_rn,Se mantiene NaN (faltante semántico: no aplica)
+motivo_eliminacion,categorica,743,87.1,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+maf_mg_af_dia,numerica,526,61.7,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+nombre_maf,categorica,504,59.1,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+cual_maf,categorica,486,57.0,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+mg_af_capsula_maf,categorica,486,57.0,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+capsulas_maf,categorica,485,56.9,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+codigo_maf,numerica,485,56.9,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+dias_a_la_semana_maf,categorica,485,56.9,no_aplica_si_no_consumo_maf,Se mantiene NaN (faltante semántico: no aplica)
+nombre_sin,categorica,378,44.3,no_aplica_si_no_consumo_sin,Se mantiene NaN (faltante semántico: no aplica)
+dias_a_la_semana_sin,categorica,373,43.7,no_aplica_si_no_consumo_sin,Se mantiene NaN (faltante semántico: no aplica)
+capsulas_sin,categorica,372,43.6,no_aplica_si_no_consumo_sin,Se mantiene NaN (faltante semántico: no aplica)
+saf_osaf_mg_af_dia,numerica,156,18.3,faltante_real_o_por_confirmar,Imputación mediana (1.00) + indicador
+nombre_saf,categorica,132,15.5,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+periodo_consumo_saf,categorica,129,15.1,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+aporte_saf_mg_af_capsula,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+capsulas_saf,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+codigo_saf,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+dias_a_la_semana_saf,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+periodo_consumo_saf_c,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+saf_mg_af_dia,categorica,126,14.8,no_aplica_si_no_consumo_saf,Se mantiene NaN (faltante semántico: no aplica)
+problema_salud_c,categorica,53,6.2,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+total_af_aporte_pasta_pan_saf_osaf_maf,numerica,38,4.5,faltante_real_o_por_confirmar,Imputación mediana (17.38) + indicador
+total_af_aporte_saf_osaf_maf_pan,numerica,35,4.1,faltante_real_o_por_confirmar,Imputación mediana (1.30) + indicador
+saf_osaf_maf_mg_af_dia,categorica,28,3.3,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+gramos_pasta_dia,categorica,22,2.6,no_aplica_si_no_consumo_pastas,Se mantiene NaN (faltante semántico: no aplica)
+gramos_pasta_semanal,categorica,22,2.6,no_aplica_si_no_consumo_pastas,Se mantiene NaN (faltante semántico: no aplica)
+pasta_ug_af_dia,numerica,22,2.6,no_aplica_si_no_consumo_pastas,Se mantiene NaN (faltante semántico: no aplica)
+nombre_pan,categorica,18,2.1,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+taza_pasta_con_af,categorica,16,1.9,no_aplica_si_no_consumo_pastas,Se mantiene NaN (faltante semántico: no aplica)
+aporte_mg_af_unidad_pan,numerica,15,1.8,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+codigo_pan,numerica,15,1.8,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+gr_pan_dia,numerica,15,1.8,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+pan_mg_af_dia,numerica,15,1.8,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+unidad_pan_dia,categorica,15,1.8,no_aplica_si_no_consumo_pan,Se mantiene NaN (faltante semántico: no aplica)
+delta_peso_gestacional,numerica,10,1.2,faltante_real_o_por_confirmar,Imputación mediana (10.00) + indicador
+delta_peso_gestacional_c,categorica,10,1.2,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+imc_termino_c,categorica,10,1.2,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+delta_imc,numerica,9,1.1,faltante_real_o_por_confirmar,Imputación mediana (3.86) + indicador
+evito_consumo_alimentos_c,categorica,9,1.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+imc_pregestacional_c,categorica,8,0.9,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+categoria_imc_pregestacional,categorica,7,0.8,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+eg_rn_c,categorica,7,0.8,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+imc_pregestacional,numerica,7,0.8,faltante_real_o_por_confirmar,Imputación mediana (25.53) + indicador
+eg_rn,numerica,4,0.5,faltante_real_o_por_confirmar,Imputación mediana (38.57) + indicador
+imc_postparto,numerica,4,0.5,faltante_real_o_por_confirmar,Imputación mediana (30.06) + indicador
+peso_postparto,numerica,4,0.5,faltante_real_o_por_confirmar,Imputación mediana (79.00) + indicador
+talla_materna,numerica,4,0.5,faltante_real_o_por_confirmar,Imputación mediana (160.00) + indicador
+condicion_o_exposiscion_materna,categorica,3,0.4,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+nivel_educacional_c,categorica,3,0.4,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+pandemia_c,categorica,3,0.4,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+pandemia_label,categorica,3,0.4,faltante_real_o_por_confirmar,Relleno con 'No reportado'
+primipara_c,categorica,3,0.4,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+sexo_rn_c,categorica,3,0.4,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+edad_madre,numerica,2,0.2,faltante_real_o_por_confirmar,Imputación mediana (34.00) + indicador
+peso_pregestacional,numerica,2,0.2,faltante_real_o_por_confirmar,Imputación mediana (67.00) + indicador
+peso_rn,numerica,2,0.2,faltante_real_o_por_confirmar,Imputación mediana (3322.00) + indicador
+condicion_materna_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+consumo_maf,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+consumo_osaf,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+consumo_pan_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+consumo_pastas_con_af,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+consumo_saf,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+nacionalidad_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+peso_rn_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+problema_salud_rn_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
+region_c,categorica,1,0.1,faltante_real_o_por_confirmar,Se mantiene NaN (categoría codificada numérica)
